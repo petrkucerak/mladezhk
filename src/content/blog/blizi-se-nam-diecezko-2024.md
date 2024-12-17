@@ -1,5 +1,5 @@
 ---
-title: 'Markdown Style Guide'
+title: 'Blíží se nám diecézko 2025'
 description: 'Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.'
 pubDate: 'Jun 19 2024'
 heroImage: '/blog-placeholder-1.jpg'
@@ -100,7 +100,7 @@ we can use 3 backticks ``` in new line and write snippet and close with 3 backti
 ````markdown
 ```html
 <!doctype html>
-<html lang="en">
+<html lang="cs">
   <head>
     <meta charset="utf-8" />
     <title>Example HTML5 Document</title>
@@ -116,7 +116,7 @@ we can use 3 backticks ``` in new line and write snippet and close with 3 backti
 
 ```html
 <!doctype html>
-<html lang="en">
+<html lang="cs">
   <head>
     <meta charset="utf-8" />
     <title>Example HTML5 Document</title>

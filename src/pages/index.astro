@@ -1,50 +1,72 @@
 ---
-import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 ---
 
 <!doctype html>
-<html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
-	<body>
-		<Header />
-		<main>
-			<h1>🧑‍🚀 Hello, Astronaut!</h1>
-			<p>
-				Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This
-				template serves as a lightweight, minimally-styled starting point for anyone looking to build
-				a personal website, blog, or portfolio with Astro.
-			</p>
-			<p>
-				This template comes with a few integrations already configured in your
-				<code>astro.config.mjs</code> file. You can customize your setup with
-				<a href="https://astro.build/integrations">Astro Integrations</a> to add tools like Tailwind,
-				React, or Vue to your project.
-			</p>
-			<p>Here are a few ideas on how to get started with the template:</p>
-			<ul>
-				<li>Edit this page in <code>src/pages/index.astro</code></li>
-				<li>Edit the site header items in <code>src/components/Header.astro</code></li>
-				<li>Add your name to the footer in <code>src/components/Footer.astro</code></li>
-				<li>Check out the included blog posts in <code>src/content/blog/</code></li>
-				<li>Customize the blog post page layout in <code>src/layouts/BlogPost.astro</code></li>
-			</ul>
-			<p>
-				Have fun! If you get stuck, remember to <a href="https://docs.astro.build/"
-					>read the docs
-				</a> or <a href="https://astro.build/chat">join us on Discord</a> to ask questions.
-			</p>
-			<p>
-				Looking for a blog template with a bit more personality? Check out <a
-					href="https://github.com/Charca/astro-blog-template"
-					>astro-blog-template
-				</a> by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
-			</p>
-		</main>
-		<Footer />
-	</body>
+<html lang="cs">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <h1>👋 Vítej na stránkách mládeže!</h1>
+      <p>
+        Vítej na stránkách pro mladé katolíky z Královehradecké diecéze! Tento
+        web je tvým prostorem pro inspiraci, povzbuzení a sdílení radosti z
+        víry. Najdeš zde témata pro duchovní růst, tipy na akce a příběhy, které
+        ti mohou pomoct na tvé cestě k Bohu.
+      </p>
+      <p>
+        Možná máš někdy otázky, jak spojit víru s moderním životem. A právě od
+        toho jsme tu společně – abychom se navzájem inspirovali a podporovali.
+        Nezapomeň, že Pán tě nikdy neopouští, ať už jdeš kamkoliv!
+      </p>
+      <h2>🌟 Co tu najdeš?</h2>
+      <ul>
+        <li>
+          <strong>Duchovní inspirace:</strong> Modlitby, zamyšlení a tipy na každodenní
+          život s Bohem.
+        </li>
+        <li>
+          <strong>Akce pro mládež:</strong> Termíny duchovních obnov, setkání a výletů.
+        </li>
+        <li>
+          <strong>Blog:</strong> Příběhy ostatních mladých věřících, které tě povzbudí
+          a ukážou, že v tom nejsi sám.
+        </li>
+        <li>
+          <strong>Tipy na četbu:</strong> Doporučené knihy a články pro tvůj duchovní
+          růst.
+        </li>
+      </ul>
+      <h2>🙏 Zamysli se...</h2>
+      <blockquote>
+        „Neboj se, vždyť já jsem s tebou; nerozhlížej se úzkostně, neboť já jsem
+        tvůj Bůh.“
+        <cite>— Izaiáš 41:10</cite>
+      </blockquote>
+      <p>
+        Pán ti dal jedinečné dary a talenty. Jak je můžeš využít k dobru
+        druhých? Přidej se k nám, sdílej svůj příběh a inspiruj ostatní!
+      </p>
+      <p>
+        Máš nějaký nápad, otázku nebo svědectví, které bys chtěl sdílet? Napiš
+        nám na <a href="mailto:kontakt@mladikrestane.cz"
+          >kontakt@mladikrestane.cz</a
+        >.
+      </p>
+      <p>
+        A nezapomeň sledovat naši <a
+          href="https://www.instagram.com/mladikrestane"
+          target="_blank">Instagramovou stránku</a
+        >
+        pro více inspirace a novinek!
+      </p>
+    </main>
+    <Footer />
+  </body>
 </html>
